@@ -1,0 +1,171 @@
+p{
+	  font-family: "Arial", Helvetica, sans-serif;
+	  text-align: center;
+	  font-family: "Dokdo";
+	 
+  }
+
+
+h1,h2, h3,div {
+font-family: "Dokdo";
+text-align: center
+  
+  }
+  figure{
+	  text-align: center;
+  }
+  
+ 
+  
+  footer{
+	  background-color: red;
+  }
+  
+  
+  
+  img{
+	align-content: center;
+  }
+  
+  
+  h2{
+    font-family: "Dokdo";
+	
+  }
+ 
+ cycle-slideshow {
+
+     width: 100%;  
+
+     background-color: pink;
+
+            } 
+			
+#adv-custom-caption {
+
+    text-align: center;
+
+           }			
+  
+  main{
+	  padding: 3% 3%;
+	 align-content: center;
+	  font-family: "Dokdo";
+	  
+  }
+  
+  header{
+	  margin-top: 5px;
+	  margin-bottom: 50px;
+	  text-align: center;
+	  background-color: red;
+  }
+  
+  footer{
+	  text-align: center;
+	  margin-top: 40px;
+	  font-weight: bold;
+	  
+  }
+  demoHeaders {
+		margin-top: 2em;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	select {
+		width: 200px;
+	}
+	  
+	ul{
+		list-style-type: circle;
+	}
+	
+	li{
+		text-indent: 10px;
+  }
+  
+	
+#rollover{
+  background-image:url("../images/rsz_shibuyacars.jpg");
+  align-content: center;
+  width:740px;
+  height:580px;
+  
+
+margin: 0 auto;
+
+display: block;
+}
+
+#rollover:hover{
+  background-image:url("../images/rsz_shibuya_walking.jpg");
+}
+  
+.torii:hover{
+   -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+.ryokan:hover{
+  	  transform: rotate(20deg);
+}	
+	
+	img:nth-of-type(odd) {
+	transition: 1s;
+	-webkit-transition: 1s;
+}
+
+img:nth-of-type(even) {
+	transition: 2s;
+	-webkit-transition: 2s;
+}
+
+#skew_pos_x:hover {
+	transform: skewX(60deg);
+	-webkit-transform: skewX(60deg);
+}  
+
+#trans_neg_x:hover {
+	transform: translateX(-40px);
+	-webkit-transform: translateX(-44px);
+}  
+ .current{
+	 color: red;
+ }
+ #imagemap{
+	 margin: 0 auto;
+
+display: block
+ }
+  
+  
+  
+ 

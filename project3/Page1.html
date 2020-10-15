@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>    
+    <title> Trip to Japan </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">	
+	<link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+	<link id="styling" rel="stylesheet" href="css/float_layout.css" >
+	<link href="jquery/jquery-ui.min.css" rel="stylesheet">
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<script src="http://malsup.github.io/jquery.cycle2.center.js"></script>
+	<script src="scripts/main.js"></script> 
+  </head>  
+  <body>
+    <header>
+		<a href="index.html"><img src="images/X_logo.jpg"></a>
+       <h1> Travel destinations </h1>
+	    <nav> 
+	    <input type="button" id="one"  value= "Page 1" class="current">
+	    <input type="button" id="two"  value= "Page 2"> 
+	    <input type="button" id="three"  value= "Page 3"> 
+	   </nav>
+	   
+    </header>    
+    <main> 
+	
+	<h2 class="demoHeaders">Accordion</h2>
+<div id="accordion">
+	<h3>First Page</h3>
+	<div>This website is about the dream trip to Japan that I always wanted, the first page will be show the accordion, slideshow, and a image map.</div>
+	<h3>Second Page</h3>
+	<div> have included multiple pictures and videos </div>
+	<h3>Third Page</h3>
+	<div>The third page is were you can see various pictures with tranformations, transistions, and filters.</div>
+	
+</div>
+	
+       
+	   <h1>Some of the locations that I want to visit </h1>
+
+	<script>
+$( "#accordion" ).accordion();
+
+</script>   
+<figure>	   
+<h1>Areas I want to visit</h1>
+<div class="cycle-slideshow" 
+data-cycle-fx="scrollHorz"
+data-cycle-timeout="2000"
+data-cycle-center-horz=true
+data-cycle-caption="#adv-custom-caption"
+data-cycle-caption-template="Slide {{slideNum}}: {{cycleTitle}}">
+
+  
+  <img src="images/odaibaGundam.jpg" data-cycle-title="The life size(64.6 feet) Unicorn Gundam statue. ">
+  <img src="images/rsz_kyoto.jpg" data-cycle-title="Kyoto, Japan">
+  <img src="images/rsz_hokkaido.jpg" data-cycle-title="Northern prefecture of Hokkaido">
+  <img src="images/rsz_mie.jpg" data-cycle-title="Nabana no Sato’s winter illumination light tunnel">
+  <img src="images/rsz_rural_japan.jpg" data-cycle-title="Rural Japan">
+  <img src="images/rsz_akita-kanto-festival.jpg" data-cycle-title="The kanto festival in Akita,Japan">
+  <img src="images/hachiko.jpg" data-cycle-title="Hachiko, the most faithful dog in the world">
+  <img src="images/rsz_ise_grand_shrine.jpg" data-cycle-title="An important shrine to the shinto shrine ">
+  <img src="images/rsz_shinjuku_station.jpg" data-cycle-title="A major subway station in tokyo">
+  
+
+  <!-- empty element for caption follows; do not modify -->
+  <div id="adv-custom-caption"></div>
+</div> 
+</figure>
+		 
+     <p>This is a map of Tokyo Prefecture; click over the Tokyo, shinjuku, shibuya, and chichibu-tama-kai National park names to go to informational websites.</P>
+	
+<div id="imagemap">
+<img src="images/rsz_tokyo_map.jpg" width="800" height="600" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Tekkadan -->
+<area shape="poly" coords="542,271,543,330,629,334,635,271" alt="This will lead to the tokyo english tourist website" target="Tokyo" href="http://www.gotokyo.org/en/" />
+<area shape="poly" coords="474,266,474,293,531,296,533,266,532,268" alt="Shinjuku tourist page" href="http://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html" />
+<area shape="poly" coords="470,316,473,336,537,331,529,305" alt="Shibuya&apos;s tourist site" href="http://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html" />
+<area shape="poly" coords="85,100,82,155,207,151,223,100" alt="Japanvisitor article chichibu-tama-kai National Park" href="http://www.japanvisitor.com/japan-parks-gardens/chichibu-tama-kai" />
+</map>
+
+	</div>   
+	   
+    </main> 
+	
+		
+    <footer>
+       &copy; Celestine CS 2800 Project 3- Spring 2019
+    </footer>  
+  </body>
+</html>
