@@ -1,0 +1,70 @@
+p{
+	  font-family: "Arial", Helvetica, sans-serif;
+  }
+
+
+h1 {
+text-align: center
+  
+  }
+  
+  header{
+   
+	background-color: red;
+	
+  }
+  
+  footer{
+	  background-color: red;
+  }
+  
+  
+  
+  section{
+	background-color: #808080;
+  }
+  
+  
+  h2{
+    color: rgb(0, 0, 0);
+  }
+ 
+  aside{
+	  background-color: gray;
+	  border-style: dotted;
+	
+  }
+  
+  main{
+	  padding: 3% 3%;
+  }
+  
+  header{
+	  margin-top: 5px;
+	  margin-bottom: 50px;
+  }
+  
+  footer{
+	  text-align: center;
+	  margin-top: 40px;
+	  
+  }
+	  
+	ul{
+		list-style-type: square;
+	}
+	
+	li{
+		text-indent: 10px;
+  }
+  
+	
+	
+	  
+  
+  
+ 
+  
+  
+  
+ 

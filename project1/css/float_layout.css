@@ -1,0 +1,26 @@
+section{
+	border-style: solid;
+	border-bottom: 10px;
+}
+
+main {
+	float: left;
+	width: 50%;
+}
+
+aside{
+	border-style: solid;
+	float: right;	
+	width : 33%;	
+}
+img{
+	float: left;
+}
+
+footer {
+	clear: both;
+}
+/*main{
+	padding: 25px 50px 75px 100px;
+}*/
+
